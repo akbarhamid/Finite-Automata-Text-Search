@@ -59,15 +59,25 @@ Nondeterministic Finite Automata (NFA) didefenisikan sebagai 5 tuple yang merupa
 ## Pengujian
 Disini aplikasi akan diuji dengan faktor waktu yang dibutuhkan apakah berbanding terbalik, berbanding lurus atau sebandingdengan banyaknya string atau kata yang di input dan dokumen yang diupload.
 - Uji dengan banyaknya kata yang di input dengan kondisi jumlah dokumen yang sama, yaitu 50 dokumen.
-  a. Pengujian testing waktu yang diperlukan menggunakan kata “pandemi”
-  b. Pengujian testing waktu yang diperlukan menggunakan kata “pandemi covid”
-  c. Pengujian testing waktu yang diperlukan menggunakan kata “pandemi covid-19”
+  1. Pengujian testing waktu yang diperlukan menggunakan kata “pandemi”
+     ![gambar](https://user-images.githubusercontent.com/72149133/178648829-b627b972-4f3b-46db-8e31-f7724457ad07.png)
+
+  3. Pengujian testing waktu yang diperlukan menggunakan kata “pandemi covid”
+     ![gambar](https://user-images.githubusercontent.com/72149133/178648854-eed36610-f45b-4e1b-b5af-4a54fe1d42f3.png)
+
+  5. Pengujian testing waktu yang diperlukan menggunakan kata “pandemi covid-19”
+     ![gambar](https://user-images.githubusercontent.com/72149133/178648877-14b1d230-ecfc-4d09-877c-f2d4b22a9169.png)
   
   Dengan ini kesimpulan yang diberikan adalah, banyaknya kata tidaklah berpengaruh pada penerapan pencarian teks pada mesin nfa menggunakan delta topi atau bisa dibilangwaktu yang dibutuhkan berbanding terbalik dengan banyaknya string atau kata pada inputan.
 - Uji dengan jumlah dokumen yang di upload atau tersimpan dengan kondisi kata yang dicari adalah sama.
-  a. Pada kondisi ini kata yang digunakan adalah kata “Pandemi” dengan dokumen yang di upload adalah 50 dokumen (doc1 – doc50)
-  b. Menambahkan 20 dokumen. Total 70 dokumen (doc1 – doc70)
-  c. Menambahkan 20 dokumen . Total 90 dokumen (doc1 – doc90)
+  1. Pada kondisi ini kata yang digunakan adalah kata “Pandemi” dengan dokumen yang di upload adalah 50 dokumen (doc1 – doc50)
+     ![gambar](https://user-images.githubusercontent.com/72149133/178648910-8fc1dab3-7c3f-4b5f-a76d-8d58b9bffec2.png)
+
+  3. Menambahkan 20 dokumen. Total 70 dokumen (doc1 – doc70)
+     ![gambar](https://user-images.githubusercontent.com/72149133/178648932-c000e7ee-c425-49b1-91a5-6bb0db63ec1e.png)
+
+  5. Menambahkan 20 dokumen . Total 90 dokumen (doc1 – doc90)
+     ![gambar](https://user-images.githubusercontent.com/72149133/178648957-f2f8271d-04ee-4228-aca2-3af51b4b042d.png)
   
   Dengan ini kesimpulan yang diberikan adalah, banyaknya dokumen pada aplikasi yang diuji sangatlah berpengaruh pada waktu yang dibutuhkan dalam mencari seuatu teks atau string yang diberikan atau berbanding lurus dengan waktu yang dibutuhkan.
 
