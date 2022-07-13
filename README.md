@@ -27,31 +27,47 @@ Nondeterministic Finite Automata (NFA) didefenisikan sebagai 5 tuple yang merupa
 ## Implementasi
 
 ### Tampilan Awal (Home page)
-![Tampilan Awal (Home page)](https://user-images.githubusercontent.com/72149133/178647723-2e605f86-1784-4ec1-987e-058ad7514555.png)
+<p align="center">
+<img src="https://user-images.githubusercontent.com/72149133/178647723-2e605f86-1784-4ec1-987e-058ad7514555.png" style="width: 40%;">
+</p>
 
 ### Tampilan Upload Doc (Mengupload Dokumen yang Dicari)
-![Tampilan Upload Doc (Mengupload Dokumen yang Dicari)](https://user-images.githubusercontent.com/72149133/178647739-6f08da29-f4b7-46db-aa98-435c13a25c8e.png)
-
+<p align="center">
+<img src="https://user-images.githubusercontent.com/72149133/178647739-6f08da29-f4b7-46db-aa98-435c13a25c8e.png" style="width: 40%;">
+</p>
 
 ### Tampilan Hasil Pencarian (Teks yang Dicari) 
-![Tampilan Hasil Pencarian (Teks yang Dicari)](https://user-images.githubusercontent.com/72149133/178647753-bfab568f-772c-4cdd-b42a-8846b5e566e6.png)
-
+<p align="center">
+<img src="https://user-images.githubusercontent.com/72149133/178647753-bfab568f-772c-4cdd-b42a-8846b5e566e6.png" style="width: 40%;">
+</p>
 
 ### Tampilan Quintuple
-![Tampilan Quintuple](https://user-images.githubusercontent.com/72149133/178647770-0f93c87d-213a-41b0-89f5-a8d4cc754398.png)
-
+<p align="center">
+<img src="https://user-images.githubusercontent.com/72149133/178647770-0f93c87d-213a-41b0-89f5-a8d4cc754398.png" style="width: 40%;">
+</p>
 
 ### Tampilan Dokumen Ful Teks
-<img width="960" alt="Tampilan Dokumen Ful Teks" src="https://user-images.githubusercontent.com/72149133/178647778-1b85820a-b4d7-41f9-a1d0-0bc69d53f00d.png">
-
+<p align="center">
+<img src="https://user-images.githubusercontent.com/72149133/178647778-1b85820a-b4d7-41f9-a1d0-0bc69d53f00d.png" style="width: 40%;">
+</p>
 
 ### Tampilan My Files (Dokumen yang Sudah Diupload)
-![gambar](https://user-images.githubusercontent.com/72149133/178647850-ca687d4b-cc1b-40c8-a5b4-d90b33ae1e1c.png)
-
-
-
+<p align="center">
+<img src="https://user-images.githubusercontent.com/72149133/178647850-ca687d4b-cc1b-40c8-a5b4-d90b33ae1e1c.png" style="width: 40%;">
+</p>
 
 ## Pengujian
-
+Disini aplikasi akan diuji dengan faktor waktu yang dibutuhkan apakah berbanding terbalik, berbanding lurus atau sebandingdengan banyaknya string atau kata yang di input dan dokumen yang diupload.
+- Uji dengan banyaknya kata yang di input dengan kondisi jumlah dokumen yang sama, yaitu 50 dokumen.
+  1. Pengujian testing waktu yang diperlukan menggunakan kata “pandemi”
+  2. Pengujian testing waktu yang diperlukan menggunakan kata “pandemi covid”
+  3. Pengujian testing waktu yang diperlukan menggunakan kata “pandemi covid-19”
+  Dengan ini kesimpulan yang diberikan adalah, banyaknya kata tidaklah berpengaruh pada penerapan pencarian teks pada mesin nfa menggunakan delta topi atau bisa dibilangwaktu yang dibutuhkan berbanding terbalik dengan banyaknya string atau kata pada inputan.
+- Uji dengan jumlah dokumen yang di upload atau tersimpan dengan kondisi kata yang dicari adalah sama.
+  1. Pada kondisi ini kata yang digunakan adalah kata “Pandemi” dengan dokumen yang di upload adalah 50 dokumen (doc1 – doc50)
+  2. Menambahkan 20 dokumen. Total 70 dokumen (doc1 – doc70)
+  3. Menambahkan 20 dokumen . Total 90 dokumen (doc1 – doc90)
+  Dengan ini kesimpulan yang diberikan adalah, banyaknya dokumen pada aplikasi yang diuji sangatlah berpengaruh pada waktu yang dibutuhkan dalam mencari seuatu teks atau string yang diberikan atau berbanding lurus dengan waktu yang dibutuhkan.
 
 ## Kesimpulan
+Aplikasi Pencarian Teks Finite Automata menggunakan mesin Non-deterministic Finite Automata (NFA) merupakan aplikasi berbasis web yang mana dapat mencari teks kata (kata kunci sesuai keinginan user) dari sebuah teks file yang sudah diupload sebelumnya yang mana berekstensi .txt. Fitur-fitur yang disediakan juga tidak memiliki makna ganda dan memiliki fungsinya masing-masing. Semakin banyak dokumen yang ada didalam database akan mempengaruhi waktu yang dibutuhkan sistem untuk mencari dokumen-dokumen yang sesuai dengan kata kunci yang dimasukkan oleh user. Dan juga cepat lambatnya pencarian teks dalam dokumen tergantung juga pada posisi kata kunci yang dicari di dalam sebuah dokumen.
