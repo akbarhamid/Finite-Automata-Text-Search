@@ -59,15 +59,15 @@ Nondeterministic Finite Automata (NFA) didefenisikan sebagai 5 tuple yang merupa
 ## Pengujian
 Disini aplikasi akan diuji dengan faktor waktu yang dibutuhkan apakah berbanding terbalik, berbanding lurus atau sebandingdengan banyaknya string atau kata yang di input dan dokumen yang diupload.
 - Uji dengan banyaknya kata yang di input dengan kondisi jumlah dokumen yang sama, yaitu 50 dokumen.
-  1. Pengujian testing waktu yang diperlukan menggunakan kata “pandemi”
-  2. Pengujian testing waktu yang diperlukan menggunakan kata “pandemi covid”
-  3. Pengujian testing waktu yang diperlukan menggunakan kata “pandemi covid-19”
+  a. Pengujian testing waktu yang diperlukan menggunakan kata “pandemi”
+  b. Pengujian testing waktu yang diperlukan menggunakan kata “pandemi covid”
+  c. Pengujian testing waktu yang diperlukan menggunakan kata “pandemi covid-19”
   
   Dengan ini kesimpulan yang diberikan adalah, banyaknya kata tidaklah berpengaruh pada penerapan pencarian teks pada mesin nfa menggunakan delta topi atau bisa dibilangwaktu yang dibutuhkan berbanding terbalik dengan banyaknya string atau kata pada inputan.
 - Uji dengan jumlah dokumen yang di upload atau tersimpan dengan kondisi kata yang dicari adalah sama.
-  1. Pada kondisi ini kata yang digunakan adalah kata “Pandemi” dengan dokumen yang di upload adalah 50 dokumen (doc1 – doc50)
-  2. Menambahkan 20 dokumen. Total 70 dokumen (doc1 – doc70)
-  3. Menambahkan 20 dokumen . Total 90 dokumen (doc1 – doc90)
+  a. Pada kondisi ini kata yang digunakan adalah kata “Pandemi” dengan dokumen yang di upload adalah 50 dokumen (doc1 – doc50)
+  b. Menambahkan 20 dokumen. Total 70 dokumen (doc1 – doc70)
+  c. Menambahkan 20 dokumen . Total 90 dokumen (doc1 – doc90)
   
   Dengan ini kesimpulan yang diberikan adalah, banyaknya dokumen pada aplikasi yang diuji sangatlah berpengaruh pada waktu yang dibutuhkan dalam mencari seuatu teks atau string yang diberikan atau berbanding lurus dengan waktu yang dibutuhkan.
 
